@@ -1,0 +1,176 @@
+@import url('./../Global/global.css');
+
+
+/*--------------- main------------------------ */
+
+
+/*------------------------- design---------------- */
+
+.design {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.container-design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-title {
+    font-size: 72px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.design-text {
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    width: 941px;
+    margin-bottom: 60px;
+}
+
+.gradient-left{
+    position: absolute;
+    z-index: -1;
+    left: -200px;
+    top: 150px;
+    width: 256px;
+    height: 423px;
+    filter: blur(150px);
+    background: rgb(146,242,49);
+    background: radial-gradient(circle, rgba(146,242,49,1) 0%, rgba(0,182,122,1) 100%);
+
+}
+
+.map{
+    width: 100%;
+    height: 550px;
+}
+
+[class*="copyrights-pane"] {
+	display: none !important;
+}
+
+
+/* ----------------featured------------------------- */
+
+.featured {
+    margin-bottom: 130px;
+}
+
+.container-featured {
+    display: flex;
+    width: 745px;
+    justify-content: space-between;
+}
+
+.featured-block {
+    text-align: center;
+}
+
+.featured-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+.featured-text {
+    line-height: 1.5;
+}
+
+
+/* ------------------form------------------------- */
+
+.form {
+    margin-bottom: 200px;
+}
+
+.container-form {
+    text-align: center;
+    width: 750px;
+}
+
+.form-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.form-text {
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.form-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.form-content-block {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-content-block label{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.form-content-block input{
+    width: 330px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #98D0DC;
+    background-color: white;
+    color: var(--secondary);
+    line-height: 1.5;
+}
+
+.form-content-block textarea{
+    line-height: 1.5;
+    color: var(--secondary);
+    border: 1px solid #98D0DC;
+    background-color: white;
+    border-radius: 5px;
+    width: 750px;
+    padding: 15px 0 100px 15px;
+    resize: none;
+}
+
+.form-btn{
+    background-color: var(--accent);
+    padding: 16px 30px;
+    border: none;
+    color: var(--primary);
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.form-btn:hover {
+    background-color: var(--primary);
+    color: var(--accent);
+    transition: 0.2s ease-in;
+}
+
+
+
+
+
+
+
+
+

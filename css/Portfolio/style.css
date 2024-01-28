@@ -1,0 +1,133 @@
+@import url('./../Global/global.css');
+
+/*--------------- main------------------------ */
+
+
+/*------------------------- design---------------- */
+
+.design {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.container-design{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-title {
+    font-size: 72px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.design-text {
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    width: 941px;
+    margin-bottom: 50px;
+
+}
+
+.gradient-left{
+    position: absolute;
+    z-index: -1;
+    left: -200px;
+    top: 150px;
+    width: 256px;
+    height: 423px;
+    filter: blur(150px);
+    background: rgb(146,242,49);
+    background: radial-gradient(circle, rgba(146,242,49,1) 0%, rgba(0,182,122,1) 100%);
+
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------main---------------------- */
+
+
+/* --------------portfolio-------------------------- */
+
+.portfolio{
+    margin-bottom: 190px;
+}
+
+.portfolio-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 130px;
+    margin-bottom: 170px;
+}
+
+.portfolio-block{
+    position: relative;
+}
+
+.portfolio-img{
+    border-radius: 30px 200px;
+}
+
+.portfolio-block:nth-child(2) .portfolio-img{
+    border-radius: 200px 30px;
+}
+
+.portfolio-block:nth-child(3) .portfolio-img{
+    border-radius: 200px 30px;
+}
+
+
+.portfolio-content-block {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    width: 360px;
+    border-radius: 30px 30px 100px 30px;
+}
+
+.portfolio-content-block span{
+    color: var(--primary);
+    line-height: 1.5;
+}
+
+.portfolio-block-text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 80%;
+
+}
+
+.portfolio-block-btn {
+    position: relative;
+    cursor: pointer;
+    border: none;
+    background-color: var(--accent);
+    padding: 32px;
+    border-radius: 50%;
+}
+
+.portfolio-block-btn img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
